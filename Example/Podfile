@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TBFontAdjust_Example' do
+  pod 'TBFontAdjust', :path => '../'
+
+  target 'TBFontAdjust_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
