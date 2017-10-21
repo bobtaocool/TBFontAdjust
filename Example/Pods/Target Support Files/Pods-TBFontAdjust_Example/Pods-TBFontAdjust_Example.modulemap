@@ -1,0 +1,6 @@
+framework module Pods_TBFontAdjust_Example {
+  umbrella header "Pods-TBFontAdjust_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TBFontAdjust (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TBFontAdjust (from `../`)
+
+EXTERNAL SOURCES:
+  TBFontAdjust:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TBFontAdjust: a630de93f15b65c5d3e09ca920af22d01269df4f
+
+PODFILE CHECKSUM: 8717b175a98cd8ad9cc51578498c0e5bb610b74c
+
+COCOAPODS: 1.4.0.beta.1

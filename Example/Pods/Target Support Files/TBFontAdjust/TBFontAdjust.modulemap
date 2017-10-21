@@ -1,0 +1,6 @@
+framework module TBFontAdjust {
+  umbrella header "TBFontAdjust-umbrella.h"
+
+  export *
+  module * { export * }
+}

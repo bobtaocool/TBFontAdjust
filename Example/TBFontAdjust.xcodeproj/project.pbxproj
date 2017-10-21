@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EE831573A0A8AB57809DD2 /* TBFontAdjust.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TBFontAdjust.podspec; path = ../TBFontAdjust.podspec; sourceTree = "<group>"; };
-		1904077643A764C5230EEA1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3933089F40D37D3EBA1A29CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		02EE831573A0A8AB57809DD2 /* TBFontAdjust.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBFontAdjust.podspec; path = ../TBFontAdjust.podspec; sourceTree = "<group>"; };
+		1904077643A764C5230EEA1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3933089F40D37D3EBA1A29CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5CA995BCE8819DE1AF2E9C05 /* Pods-TBFontAdjust_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBFontAdjust_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBFontAdjust_Tests/Pods-TBFontAdjust_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D04D11EDB99B08A7C89D0B0 /* Pods_TBFontAdjust_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFontAdjust_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TBFontAdjust_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBFontAdjust_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1639008265@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8J34388U6P;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -536,12 +539,15 @@
 			baseConfigurationReference = 88385B294837F347E42C4386 /* Pods-TBFontAdjust_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8J34388U6P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBFontAdjust/TBFontAdjust-Prefix.pch";
 				INFOPLIST_FILE = "TBFontAdjust/TBFontAdjust-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -551,12 +557,15 @@
 			baseConfigurationReference = 72CB9D5171B2778499184D82 /* Pods-TBFontAdjust_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8J34388U6P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBFontAdjust/TBFontAdjust-Prefix.pch";
 				INFOPLIST_FILE = "TBFontAdjust/TBFontAdjust-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
