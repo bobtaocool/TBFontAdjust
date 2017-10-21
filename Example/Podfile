@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'TBFontAdjust_Example' do
-  pod 'TBFontAdjust', :path => '../'
+  pod 'TBFontAdjust', :path => 'git@github.com:bobtaocool/TBFontAdjust.git'
 
   target 'TBFontAdjust_Tests' do
     inherit! :search_paths
