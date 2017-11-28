@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBFontAdjust'
-  s.version          = '1.0.0'
+  s.version          = '0.1.0'
   s.summary          = 'iOS font adjust test'
 
 # This description is used to generate tags and improve search results.
