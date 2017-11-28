@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBFontAdjust'
-  s.version          = '0.1.0'
+  s.version          = ‘1.0.0’
   s.summary          = 'iOS font adjust test'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-适用于iOS不同屏幕的字体适配，iphone 5,5s,se,6,6s，7，8使用同一套字体，plus字体放大1.5倍(默认),利用runtime实现,适用于xib与代码手写
+适用于iOS不同屏幕的字体适配
                        DESC
 
   s.homepage         = 'https://github.com/bobtaocool/TBFontAdjust'
