@@ -33,54 +33,6 @@
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E973079CA70C6DE6AFA645084B4FD5A7 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD65791A3B91630E8D3202495C544 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 966132C1C2D27D12E081739EB3204521 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4837B371FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
-		C4837B381FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
-		C4837B391FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
-		C4837B3A1FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
-		C4837B3B1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
-		C4837B3C1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
-		C4837B3D1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
-		C4837B3E1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
-		C4837B3F1FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
-		C4837B401FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
-		C4837B411FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
-		C4837B421FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
-		C4837B431FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
-		C4837B441FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
-		C4837B451FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
-		C4837B461FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
-		C4837B471FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
-		C4837B481FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
-		C4837B491FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
-		C4837B4A1FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
-		C4837B4B1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
-		C4837B4C1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
-		C4837B4D1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
-		C4837B4E1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
-		C4837B4F1FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
-		C4837B501FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
-		C4837B511FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
-		C4837B521FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
-		C4837B531FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
-		C4837B541FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
-		C4837B551FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
-		C4837B561FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
-		C4837B571FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
-		C4837B581FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
-		C4837B591FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
-		C4837B5A1FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
-		C4837B5B1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
-		C4837B5C1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
-		C4837B5D1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
-		C4837B5E1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
-		C4837B611FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
-		C4837B621FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
-		C4837B631FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
-		C4837B641FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
-		C4837B651FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
-		C4837B661FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
-		C4837B671FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
-		C4837B681FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = E345E217086934E9C859A75E25DCE8FA /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AF4B3B3062FD0BCF6E24427802616 /* FBSnapshotTestCasePlatform.m */; };
 		E5E82030E88A80848BA223BD4DAA9DB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
@@ -151,18 +103,6 @@
 		C116BD999B92A479DF799C9EEF5CC6A9 /* Pods-TBFontAdjust_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBFontAdjust_Tests.modulemap"; sourceTree = "<group>"; };
 		C134A34C80D7ABA06BAAAF67C4CC9B66 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		C317012ACE254CDA7CB81D1721DA3B74 /* Pods-TBFontAdjust_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBFontAdjust_Example.modulemap"; sourceTree = "<group>"; };
-		C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FontFit.h"; sourceTree = "<group>"; };
-		C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Font.m"; sourceTree = "<group>"; };
-		C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FontFit.m"; sourceTree = "<group>"; };
-		C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FontFit.h"; sourceTree = "<group>"; };
-		C4837B311FCD2D3D009C664E /* UIFont+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Font.h"; sourceTree = "<group>"; };
-		C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FontFit.h"; sourceTree = "<group>"; };
-		C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FontFit.m"; sourceTree = "<group>"; };
-		C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FontFit.m"; sourceTree = "<group>"; };
-		C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+FontFit.h"; sourceTree = "<group>"; };
-		C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FontFit.m"; sourceTree = "<group>"; };
-		C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TBAdd.h"; sourceTree = "<group>"; };
-		C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TBAdd.m"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3DC4E752FADA57614986E09F096DF8F /* Pods_TBFontAdjust_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFontAdjust_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4666C04E2BA578791FD299ED8F0E53E /* Pods-TBFontAdjust_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFontAdjust_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -253,18 +193,6 @@
 		4383B531044FCBCA387E0FD59E80AF8F /* TBFontAdjust */ = {
 			isa = PBXGroup;
 			children = (
-				C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */,
-				C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */,
-				C4837B311FCD2D3D009C664E /* UIFont+Font.h */,
-				C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */,
-				C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */,
-				C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */,
-				C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */,
-				C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */,
-				C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */,
-				C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */,
-				C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */,
-				C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */,
 				5DE8C6CBB97D4552FAE00E78E7F688AE /* Support Files */,
 			);
 			path = TBFontAdjust;
@@ -404,12 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31B12A7E2EB4041E8E79F98B1BD3DEE /* TBFontAdjust-umbrella.h in Headers */,
-				C4837B3A1FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
-				C4837B4A1FCD2D3E009C664E /* UIFont+Font.h in Headers */,
-				C4837B5A1FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
-				C4837B461FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
-				C4837B641FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
-				C4837B4E1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,12 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B45E55A865EBFD7FA83661F922A9903 /* Pods-TBFontAdjust_Tests-umbrella.h in Headers */,
-				C4837B391FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
-				C4837B491FCD2D3E009C664E /* UIFont+Font.h in Headers */,
-				C4837B591FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
-				C4837B451FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
-				C4837B631FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
-				C4837B4D1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,18 +348,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				C4837B431FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				C4837B471FCD2D3E009C664E /* UIFont+Font.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				C4837B571FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
-				C4837B371FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				C4837B4B1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
-				C4837B611FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,12 +363,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B29067BBEF4521D93260ABBDF412AB3 /* Pods-TBFontAdjust_Example-umbrella.h in Headers */,
-				C4837B381FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
-				C4837B481FCD2D3E009C664E /* UIFont+Font.h in Headers */,
-				C4837B581FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
-				C4837B441FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
-				C4837B621FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
-				C4837B4C1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,12 +474,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6D10C332B7DEAA2414BB58FD4D0951 /* Pods-TBFontAdjust_Example-dummy.m in Sources */,
-				C4837B541FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
-				C4837B5C1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
-				C4837B401FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
-				C4837B3C1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
-				C4837B501FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
-				C4837B661FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,12 +482,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A315F183A288401D8452482838A25338 /* TBFontAdjust-dummy.m in Sources */,
-				C4837B561FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
-				C4837B5E1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
-				C4837B421FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
-				C4837B3E1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
-				C4837B521FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
-				C4837B681FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,12 +490,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A950110A054A7880399251A2A6910E2B /* Pods-TBFontAdjust_Tests-dummy.m in Sources */,
-				C4837B551FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
-				C4837B5D1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
-				C4837B411FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
-				C4837B3D1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
-				C4837B511FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
-				C4837B671FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,21 +497,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4837B3F1FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				C4837B5B1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				C4837B651FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				C4837B4F1FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
-				C4837B531FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
-				C4837B3B1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
