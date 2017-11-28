@@ -8,16 +8,16 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - TBFontAdjust (from `../`)
+  - TBFontAdjust (from `../TBFontAdjust.podspec`)
 
 EXTERNAL SOURCES:
   TBFontAdjust:
-    :path: ../
+    :podspec: ../TBFontAdjust.podspec
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TBFontAdjust: a630de93f15b65c5d3e09ca920af22d01269df4f
+  TBFontAdjust: d083f1da970c857acdaf283138c24ac873f795f9
 
-PODFILE CHECKSUM: 8717b175a98cd8ad9cc51578498c0e5bb610b74c
+PODFILE CHECKSUM: e7f7060fd11b729e27fd4eba7ee79aa97619f558
 
 COCOAPODS: 1.4.0.beta.1

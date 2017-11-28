@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIImage+TB_Scale.h"
 
 FOUNDATION_EXPORT double TBFontAdjustVersionNumber;
 FOUNDATION_EXPORT const unsigned char TBFontAdjustVersionString[];

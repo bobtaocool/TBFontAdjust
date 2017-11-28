@@ -7,36 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = A980D2625960EE4DF90624C939088510 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD8A93C479BA75BD89F0E8FC3AC137 /* UIApplication+StrictKeyWindow.m */; };
 		0B29067BBEF4521D93260ABBDF412AB3 /* Pods-TBFontAdjust_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCF622C6EFE58E053E5890031448363 /* Pods-TBFontAdjust_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F0606813B306A0F7AE489B62E045FB9 /* TBFontAdjust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FBE4B66D10E1E415BBFDA33E152739 /* TBFontAdjust-dummy.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		3DD211C9B47002B0B24D328B5A81698E /* TBFontAdjust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0408FC05AB4F47C7465342D0F590D0CC /* TBFontAdjust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B6BDE6197A29CE6E23688962308B1D /* SwiftSupport.swift */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5A207C784670E4AC5036F6968FFF99 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EE100B065C0DA561F33400751E023 /* UIImage+Diff.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 76336B7250732F3096DFBF0A63660013 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C18DB8B4E3CEB5263BD7EF3E5C7256F /* FBSnapshotTestCase-dummy.m */; };
 		5B45E55A865EBFD7FA83661F922A9903 /* Pods-TBFontAdjust_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C58F9C87C7E052FBF7CE98CB4624D4C /* Pods-TBFontAdjust_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A96BC9F42643AA3E7C74604CAC57C00 /* UIImage+Compare.m */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B87C0A82A6D173371E0F1B70FE09E9 /* UIImage+Snapshot.m */; };
 		7871CD507D10FC1647205DBAB290F971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B11B07A710461340AD16AB45A27A1BD0 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A315F183A288401D8452482838A25338 /* TBFontAdjust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA41068F7CD8A8E2DB9CFFC482C0104C /* TBFontAdjust-dummy.m */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA013E95FAA36D79B865B9A6E0089F1 /* FBSnapshotTestController.m */; };
 		A5BCA694DA166D22D3CB8FC510EC1DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		A950110A054A7880399251A2A6910E2B /* Pods-TBFontAdjust_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B499A36D5FDA7C63189DAED312D5D50 /* Pods-TBFontAdjust_Tests-dummy.m */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		B31B12A7E2EB4041E8E79F98B1BD3DEE /* TBFontAdjust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2798D77AF084C5B3496168B64A044ACA /* TBFontAdjust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9526DE75ABED03D5FB6509CBF4B0B2 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E973079CA70C6DE6AFA645084B4FD5A7 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD65791A3B91630E8D3202495C544 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 966132C1C2D27D12E081739EB3204521 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4837B371FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
+		C4837B381FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
+		C4837B391FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
+		C4837B3A1FCD2D3E009C664E /* UITextField+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */; };
+		C4837B3B1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
+		C4837B3C1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
+		C4837B3D1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
+		C4837B3E1FCD2D3E009C664E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */; };
+		C4837B3F1FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
+		C4837B401FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
+		C4837B411FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
+		C4837B421FCD2D3E009C664E /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */; };
+		C4837B431FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
+		C4837B441FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
+		C4837B451FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
+		C4837B461FCD2D3E009C664E /* UIButton+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */; };
+		C4837B471FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
+		C4837B481FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
+		C4837B491FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
+		C4837B4A1FCD2D3E009C664E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B311FCD2D3D009C664E /* UIFont+Font.h */; };
+		C4837B4B1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
+		C4837B4C1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
+		C4837B4D1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
+		C4837B4E1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */; };
+		C4837B4F1FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
+		C4837B501FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
+		C4837B511FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
+		C4837B521FCD2D3E009C664E /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */; };
+		C4837B531FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
+		C4837B541FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
+		C4837B551FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
+		C4837B561FCD2D3E009C664E /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */; };
+		C4837B571FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
+		C4837B581FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
+		C4837B591FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
+		C4837B5A1FCD2D3E009C664E /* UITextView+FontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */; };
+		C4837B5B1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
+		C4837B5C1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
+		C4837B5D1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
+		C4837B5E1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */; };
+		C4837B611FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
+		C4837B621FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
+		C4837B631FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
+		C4837B641FCD2D91009C664E /* NSObject+TBAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */; };
+		C4837B651FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
+		C4837B661FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
+		C4837B671FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
+		C4837B681FCD2D91009C664E /* NSObject+TBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = E345E217086934E9C859A75E25DCE8FA /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AF4B3B3062FD0BCF6E24427802616 /* FBSnapshotTestCasePlatform.m */; };
 		E5E82030E88A80848BA223BD4DAA9DB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		FAE13AA0917F24655DFA454A217DF076 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F314ABEA1D943CFFC247124C98CEC /* ReplaceMe.m */; };
 		FF6D10C332B7DEAA2414BB58FD4D0951 /* Pods-TBFontAdjust_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1961CE3E37CFA4D311E33D10921B6D /* Pods-TBFontAdjust_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -58,62 +105,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0408FC05AB4F47C7465342D0F590D0CC /* TBFontAdjust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFontAdjust-umbrella.h"; sourceTree = "<group>"; };
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		056A01000BC8BD898D8A184084F688EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		12FB9D1F5345DA34EA4291E04B36B812 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		15F1B0111CAA6CD5C211EC61C9F1240D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1961CE3E37CFA4D311E33D10921B6D /* Pods-TBFontAdjust_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFontAdjust_Example-dummy.m"; sourceTree = "<group>"; };
+		1CDD8A93C479BA75BD89F0E8FC3AC137 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		1EAFF57C0F425257EA756D7078C7C98C /* Pods-TBFontAdjust_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFontAdjust_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		300C048F87C8E4AF66EEB822693AB3E5 /* Pods_TBFontAdjust_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBFontAdjust_Example.framework; path = "Pods-TBFontAdjust_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		278EE100B065C0DA561F33400751E023 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		2798D77AF084C5B3496168B64A044ACA /* TBFontAdjust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFontAdjust-umbrella.h"; sourceTree = "<group>"; };
+		300C048F87C8E4AF66EEB822693AB3E5 /* Pods_TBFontAdjust_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFontAdjust_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370EA6DAFFE09E504B5CCA7D190311DF /* TBFontAdjust-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFontAdjust-prefix.pch"; sourceTree = "<group>"; };
 		3A8457BDF2CB510BDFCE9EA68C85D880 /* Pods-TBFontAdjust_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFontAdjust_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3ADB18BAE5DDAB7D354B1EDD17C9AA22 /* TBFontAdjust-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFontAdjust-prefix.pch"; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C1FCD57296378B638C70A0DB52787B7 /* Pods-TBFontAdjust_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFontAdjust_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		4269B99FA27CB417C3E6165C0EDA1C12 /* Pods-TBFontAdjust_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFontAdjust_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4594627139FB43F804D3CE5F386C83E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49FD354975E44C34B0613DAF30F56473 /* Pods-TBFontAdjust_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFontAdjust_Tests-resources.sh"; sourceTree = "<group>"; };
-		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		584E9CEE635A391791DF556F632F69DF /* TBFontAdjust.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFontAdjust.xcconfig; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		4A96BC9F42643AA3E7C74604CAC57C00 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		4B5A207C784670E4AC5036F6968FFF99 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		52B6BDE6197A29CE6E23688962308B1D /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		59E1B1C23C6A57C77C38B48A497141FB /* Pods-TBFontAdjust_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFontAdjust_Example-resources.sh"; sourceTree = "<group>"; };
-		671C13CCB22D57ABC4C23F4799DC41AC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671C13CCB22D57ABC4C23F4799DC41AC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B499A36D5FDA7C63189DAED312D5D50 /* Pods-TBFontAdjust_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFontAdjust_Tests-dummy.m"; sourceTree = "<group>"; };
-		6D3872D111AB7C8F2FB0536F2F4C0160 /* TBFontAdjust.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TBFontAdjust.modulemap; sourceTree = "<group>"; };
-		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F6F314ABEA1D943CFFC247124C98CEC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TBFontAdjust/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6C18DB8B4E3CEB5263BD7EF3E5C7256F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		6E98DF930D3B8ACF0A514E646BECDD94 /* TBFontAdjust.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TBFontAdjust.modulemap; sourceTree = "<group>"; };
 		710CBC35A47C2DB83CA9D2589F898AC5 /* Pods-TBFontAdjust_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFontAdjust_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7218E5BA659AB061AE04F826C3CD5698 /* TBFontAdjust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBFontAdjust.framework; path = TBFontAdjust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7218E5BA659AB061AE04F826C3CD5698 /* TBFontAdjust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBFontAdjust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76336B7250732F3096DFBF0A63660013 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		7EF8A99B50B39B13941D44D37FC8FD11 /* Pods-TBFontAdjust_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFontAdjust_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8C58F9C87C7E052FBF7CE98CB4624D4C /* Pods-TBFontAdjust_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBFontAdjust_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		931AF4B3B3062FD0BCF6E24427802616 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966132C1C2D27D12E081739EB3204521 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		97F7117DD527B64D7AB72EB24CFC99AE /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A0BFD65791A3B91630E8D3202495C544 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A6FBE4B66D10E1E415BBFDA33E152739 /* TBFontAdjust-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBFontAdjust-dummy.m"; sourceTree = "<group>"; };
 		A742F3E1A395E234312C142200E96E57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A980D2625960EE4DF90624C939088510 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA41068F7CD8A8E2DB9CFFC482C0104C /* TBFontAdjust-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBFontAdjust-dummy.m"; sourceTree = "<group>"; };
 		ADCF7877CC64136B461F654C819998D2 /* Pods-TBFontAdjust_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFontAdjust_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B11B07A710461340AD16AB45A27A1BD0 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		B1E4617E31B2986C59FBDB1E5921C88A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35F475082922767DDCF3FF938A42C76 /* Pods-TBFontAdjust_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFontAdjust_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BBCF622C6EFE58E053E5890031448363 /* Pods-TBFontAdjust_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBFontAdjust_Example-umbrella.h"; sourceTree = "<group>"; };
-		C116BD999B92A479DF799C9EEF5CC6A9 /* Pods-TBFontAdjust_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TBFontAdjust_Tests.modulemap"; sourceTree = "<group>"; };
-		C317012ACE254CDA7CB81D1721DA3B74 /* Pods-TBFontAdjust_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TBFontAdjust_Example.modulemap"; sourceTree = "<group>"; };
+		C116BD999B92A479DF799C9EEF5CC6A9 /* Pods-TBFontAdjust_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBFontAdjust_Tests.modulemap"; sourceTree = "<group>"; };
+		C134A34C80D7ABA06BAAAF67C4CC9B66 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		C317012ACE254CDA7CB81D1721DA3B74 /* Pods-TBFontAdjust_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBFontAdjust_Example.modulemap"; sourceTree = "<group>"; };
+		C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FontFit.h"; sourceTree = "<group>"; };
+		C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Font.m"; sourceTree = "<group>"; };
+		C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FontFit.m"; sourceTree = "<group>"; };
+		C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FontFit.h"; sourceTree = "<group>"; };
+		C4837B311FCD2D3D009C664E /* UIFont+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Font.h"; sourceTree = "<group>"; };
+		C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FontFit.h"; sourceTree = "<group>"; };
+		C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FontFit.m"; sourceTree = "<group>"; };
+		C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FontFit.m"; sourceTree = "<group>"; };
+		C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+FontFit.h"; sourceTree = "<group>"; };
+		C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FontFit.m"; sourceTree = "<group>"; };
+		C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TBAdd.h"; sourceTree = "<group>"; };
+		C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TBAdd.m"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D3DC4E752FADA57614986E09F096DF8F /* Pods_TBFontAdjust_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBFontAdjust_Tests.framework; path = "Pods-TBFontAdjust_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC4E752FADA57614986E09F096DF8F /* Pods_TBFontAdjust_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFontAdjust_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4666C04E2BA578791FD299ED8F0E53E /* Pods-TBFontAdjust_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFontAdjust_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		D6B87C0A82A6D173371E0F1B70FE09E9 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DD9526DE75ABED03D5FB6509CBF4B0B2 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E345E217086934E9C859A75E25DCE8FA /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		E973079CA70C6DE6AFA645084B4FD5A7 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		E9DF308F9AE0A53AD09F752FCFAFD99A /* TBFontAdjust.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFontAdjust.xcconfig; sourceTree = "<group>"; };
+		FDA013E95FAA36D79B865B9A6E0089F1 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		FEB8D0D5E5833242791BD7180C9333C0 /* Pods-TBFontAdjust_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFontAdjust_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,20 +222,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */,
-				DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */,
-				52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */,
-				CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */,
-				73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */,
-				6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
 		222AB3EF0E8C4F01E82066F2343B4000 /* Pods-TBFontAdjust_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,25 +240,34 @@
 			path = "Target Support Files/Pods-TBFontAdjust_Tests";
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		40664C5E0A84ED89632B87F974A29DB6 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+				5FEDA54BD7DD0390D89FF845F527A181 /* Core */,
+				E93219D7F2FD17F1414DC19624468A42 /* Support Files */,
+				9208A0F6A0E0F1AB6C5C57B4834E96A0 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		30A65CE245E22BA39B1C871F5A023325 /* TBFontAdjust */ = {
+		4383B531044FCBCA387E0FD59E80AF8F /* TBFontAdjust */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F314ABEA1D943CFFC247124C98CEC /* ReplaceMe.m */,
-				C816E9D0984B5AC73C08C865543EBE4E /* Support Files */,
+				C4837B301FCD2D3D009C664E /* UIButton+FontFit.h */,
+				C4837B341FCD2D3E009C664E /* UIButton+FontFit.m */,
+				C4837B311FCD2D3D009C664E /* UIFont+Font.h */,
+				C4837B2E1FCD2D3D009C664E /* UIFont+Font.m */,
+				C4837B321FCD2D3D009C664E /* UILabel+FontFit.h */,
+				C4837B331FCD2D3D009C664E /* UILabel+FontFit.m */,
+				C4837B2D1FCD2D3D009C664E /* UITextField+FontFit.h */,
+				C4837B361FCD2D3E009C664E /* UITextField+FontFit.m */,
+				C4837B351FCD2D3E009C664E /* UITextView+FontFit.h */,
+				C4837B2F1FCD2D3D009C664E /* UITextView+FontFit.m */,
+				C4837B5F1FCD2D91009C664E /* NSObject+TBAdd.h */,
+				C4837B601FCD2D91009C664E /* NSObject+TBAdd.m */,
+				5DE8C6CBB97D4552FAE00E78E7F688AE /* Support Files */,
 			);
-			name = TBFontAdjust;
-			path = ../..;
+			path = TBFontAdjust;
 			sourceTree = "<group>";
 		};
 		4856DFAADE9711D40F359E9260DA9FA1 /* Targets Support Files */ = {
@@ -226,24 +279,59 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6B085D7282F0A9A68E3A2F40A657E4DA /* Development Pods */ = {
+		5DE8C6CBB97D4552FAE00E78E7F688AE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30A65CE245E22BA39B1C871F5A023325 /* TBFontAdjust */,
+				15F1B0111CAA6CD5C211EC61C9F1240D /* Info.plist */,
+				6E98DF930D3B8ACF0A514E646BECDD94 /* TBFontAdjust.modulemap */,
+				E9DF308F9AE0A53AD09F752FCFAFD99A /* TBFontAdjust.xcconfig */,
+				AA41068F7CD8A8E2DB9CFFC482C0104C /* TBFontAdjust-dummy.m */,
+				370EA6DAFFE09E504B5CCA7D190311DF /* TBFontAdjust-prefix.pch */,
+				2798D77AF084C5B3496168B64A044ACA /* TBFontAdjust-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/TBFontAdjust";
+			sourceTree = "<group>";
+		};
+		5FEDA54BD7DD0390D89FF845F527A181 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B11B07A710461340AD16AB45A27A1BD0 /* FBSnapshotTestCase.h */,
+				A0BFD65791A3B91630E8D3202495C544 /* FBSnapshotTestCase.m */,
+				966132C1C2D27D12E081739EB3204521 /* FBSnapshotTestCasePlatform.h */,
+				931AF4B3B3062FD0BCF6E24427802616 /* FBSnapshotTestCasePlatform.m */,
+				4B5A207C784670E4AC5036F6968FFF99 /* FBSnapshotTestController.h */,
+				FDA013E95FAA36D79B865B9A6E0089F1 /* FBSnapshotTestController.m */,
+				E973079CA70C6DE6AFA645084B4FD5A7 /* UIApplication+StrictKeyWindow.h */,
+				1CDD8A93C479BA75BD89F0E8FC3AC137 /* UIApplication+StrictKeyWindow.m */,
+				E345E217086934E9C859A75E25DCE8FA /* UIImage+Compare.h */,
+				4A96BC9F42643AA3E7C74604CAC57C00 /* UIImage+Compare.m */,
+				A980D2625960EE4DF90624C939088510 /* UIImage+Diff.h */,
+				278EE100B065C0DA561F33400751E023 /* UIImage+Diff.m */,
+				76336B7250732F3096DFBF0A63660013 /* UIImage+Snapshot.h */,
+				D6B87C0A82A6D173371E0F1B70FE09E9 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6B085D7282F0A9A68E3A2F40A657E4DA /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				8A719C65E777A4613777D1BD00E73DF5 /* Pods */,
 				921051FC1E6B8B8076D569A477722D4E /* Products */,
 				4856DFAADE9711D40F359E9260DA9FA1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8A719C65E777A4613777D1BD00E73DF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40664C5E0A84ED89632B87F974A29DB6 /* FBSnapshotTestCase */,
+				4383B531044FCBCA387E0FD59E80AF8F /* TBFontAdjust */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
@@ -257,6 +345,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		9208A0F6A0E0F1AB6C5C57B4834E96A0 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				52B6BDE6197A29CE6E23688962308B1D /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
 		921051FC1E6B8B8076D569A477722D4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,14 +362,6 @@
 				7218E5BA659AB061AE04F826C3CD5698 /* TBFontAdjust.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		C5736EBC2E6DDE4C9F13F4F6F8A0A232 /* Pods-TBFontAdjust_Example */ = {
@@ -294,65 +382,48 @@
 			path = "Target Support Files/Pods-TBFontAdjust_Example";
 			sourceTree = "<group>";
 		};
-		C816E9D0984B5AC73C08C865543EBE4E /* Support Files */ = {
+		E93219D7F2FD17F1414DC19624468A42 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				056A01000BC8BD898D8A184084F688EF /* Info.plist */,
-				6D3872D111AB7C8F2FB0536F2F4C0160 /* TBFontAdjust.modulemap */,
-				584E9CEE635A391791DF556F632F69DF /* TBFontAdjust.xcconfig */,
-				A6FBE4B66D10E1E415BBFDA33E152739 /* TBFontAdjust-dummy.m */,
-				3ADB18BAE5DDAB7D354B1EDD17C9AA22 /* TBFontAdjust-prefix.pch */,
-				0408FC05AB4F47C7465342D0F590D0CC /* TBFontAdjust-umbrella.h */,
+				C134A34C80D7ABA06BAAAF67C4CC9B66 /* FBSnapshotTestCase.modulemap */,
+				12FB9D1F5345DA34EA4291E04B36B812 /* FBSnapshotTestCase.xcconfig */,
+				6C18DB8B4E3CEB5263BD7EF3E5C7256F /* FBSnapshotTestCase-dummy.m */,
+				97F7117DD527B64D7AB72EB24CFC99AE /* FBSnapshotTestCase-prefix.pch */,
+				DD9526DE75ABED03D5FB6509CBF4B0B2 /* FBSnapshotTestCase-umbrella.h */,
+				4594627139FB43F804D3CE5F386C83E8 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TBFontAdjust";
-			sourceTree = "<group>";
-		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		29C5FBD3F03BD09EA93A7DB607CFCBBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31B12A7E2EB4041E8E79F98B1BD3DEE /* TBFontAdjust-umbrella.h in Headers */,
+				C4837B3A1FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
+				C4837B4A1FCD2D3E009C664E /* UIFont+Font.h in Headers */,
+				C4837B5A1FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
+				C4837B461FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
+				C4837B641FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
+				C4837B4E1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C00FF423EACB18FE653561F248FA752 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B45E55A865EBFD7FA83661F922A9903 /* Pods-TBFontAdjust_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4641889E3216748DD7AE672CAD6D9DBE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DD211C9B47002B0B24D328B5A81698E /* TBFontAdjust-umbrella.h in Headers */,
+				C4837B391FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
+				C4837B491FCD2D3E009C664E /* UIFont+Font.h in Headers */,
+				C4837B591FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
+				C4837B451FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
+				C4837B631FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
+				C4837B4D1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +432,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				C4837B431FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				C4837B471FCD2D3E009C664E /* UIFont+Font.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				C4837B571FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
+				C4837B371FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				C4837B4B1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
+				C4837B611FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +453,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B29067BBEF4521D93260ABBDF412AB3 /* Pods-TBFontAdjust_Example-umbrella.h in Headers */,
+				C4837B381FCD2D3E009C664E /* UITextField+FontFit.h in Headers */,
+				C4837B481FCD2D3E009C664E /* UIFont+Font.h in Headers */,
+				C4837B581FCD2D3E009C664E /* UITextView+FontFit.h in Headers */,
+				C4837B441FCD2D3E009C664E /* UIButton+FontFit.h in Headers */,
+				C4837B621FCD2D91009C664E /* NSObject+TBAdd.h in Headers */,
+				C4837B4C1FCD2D3E009C664E /* UILabel+FontFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,9 +504,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F991AE738898257C1AA53BC442B07AB /* Build configuration list for PBXNativeTarget "TBFontAdjust" */;
 			buildPhases = (
-				999934A6C5E90E39BD9D52C6B1E2D0A4 /* Sources */,
+				57972493703B0FC05997B057881566AD /* Sources */,
 				D659066CB4DB1D0F727409D771943786 /* Frameworks */,
-				4641889E3216748DD7AE672CAD6D9DBE /* Headers */,
+				29C5FBD3F03BD09EA93A7DB607CFCBBB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -487,6 +570,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6D10C332B7DEAA2414BB58FD4D0951 /* Pods-TBFontAdjust_Example-dummy.m in Sources */,
+				C4837B541FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
+				C4837B5C1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
+				C4837B401FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
+				C4837B3C1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
+				C4837B501FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
+				C4837B661FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57972493703B0FC05997B057881566AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315F183A288401D8452482838A25338 /* TBFontAdjust-dummy.m in Sources */,
+				C4837B561FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
+				C4837B5E1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
+				C4837B421FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
+				C4837B3E1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
+				C4837B521FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
+				C4837B681FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,15 +598,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A950110A054A7880399251A2A6910E2B /* Pods-TBFontAdjust_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		999934A6C5E90E39BD9D52C6B1E2D0A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAE13AA0917F24655DFA454A217DF076 /* ReplaceMe.m in Sources */,
-				0F0606813B306A0F7AE489B62E045FB9 /* TBFontAdjust-dummy.m in Sources */,
+				C4837B551FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
+				C4837B5D1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
+				C4837B411FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
+				C4837B3D1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
+				C4837B511FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
+				C4837B671FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,15 +611,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4837B3F1FCD2D3E009C664E /* UITextView+FontFit.m in Sources */,
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				C4837B5B1FCD2D3E009C664E /* UITextField+FontFit.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				C4837B651FCD2D91009C664E /* NSObject+TBAdd.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				C4837B4F1FCD2D3E009C664E /* UILabel+FontFit.m in Sources */,
+				C4837B531FCD2D3E009C664E /* UIButton+FontFit.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+				C4837B3B1FCD2D3E009C664E /* UIFont+Font.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +647,285 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		3BA5965CB282C5AC4108DAA7ADEA2253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4269B99FA27CB417C3E6165C0EDA1C12 /* Pods-TBFontAdjust_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Pods-TBFontAdjust_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TBFontAdjust_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C7A2D615ADD5A78A82592D54A3ABAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710CBC35A47C2DB83CA9D2589F898AC5 /* Pods-TBFontAdjust_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Pods-TBFontAdjust_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TBFontAdjust_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DB9440D440E74F2BE4D833A62F73071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCF7877CC64136B461F654C819998D2 /* Pods-TBFontAdjust_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Pods-TBFontAdjust_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TBFontAdjust_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9978D73F0DB4DE5827BD72DC1A725376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DF308F9AE0A53AD09F752FCFAFD99A /* TBFontAdjust.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBFontAdjust/TBFontAdjust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBFontAdjust/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBFontAdjust/TBFontAdjust.modulemap";
+				PRODUCT_NAME = TBFontAdjust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FB9D1F5345DA34EA4291E04B36B812 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FB9D1F5345DA34EA4291E04B36B812 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFBCB8A6BD61A7B429B5BB4BC7E14B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB8D0D5E5833242791BD7180C9333C0 /* Pods-TBFontAdjust_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Pods-TBFontAdjust_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TBFontAdjust_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -590,7 +974,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -601,287 +985,9 @@
 			};
 			name = Debug;
 		};
-		4F1AE10D7F3322AD697C328F950395EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 710CBC35A47C2DB83CA9D2589F898AC5 /* Pods-TBFontAdjust_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Pods-TBFontAdjust_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TBFontAdjust_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		74315627A249D5089151DE9796826B9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4269B99FA27CB417C3E6165C0EDA1C12 /* Pods-TBFontAdjust_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Tests/Pods-TBFontAdjust_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TBFontAdjust_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9978D73F0DB4DE5827BD72DC1A725376 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 584E9CEE635A391791DF556F632F69DF /* TBFontAdjust.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TBFontAdjust/TBFontAdjust-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBFontAdjust/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBFontAdjust/TBFontAdjust.modulemap";
-				PRODUCT_NAME = TBFontAdjust;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F48A5A18CABDF7E66443A2A1F781E375 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEB8D0D5E5833242791BD7180C9333C0 /* Pods-TBFontAdjust_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Pods-TBFontAdjust_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TBFontAdjust_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F5D29D2308B688CA1A23B729F824D65A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADCF7877CC64136B461F654C819998D2 /* Pods-TBFontAdjust_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBFontAdjust_Example/Pods-TBFontAdjust_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TBFontAdjust_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FD6B5BE3B6443E5340001C114A33E553 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 584E9CEE635A391791DF556F632F69DF /* TBFontAdjust.xcconfig */;
+			baseConfigurationReference = E9DF308F9AE0A53AD09F752FCFAFD99A /* TBFontAdjust.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -924,8 +1030,8 @@
 		290186E4A294099D9387E944773053C5 /* Build configuration list for PBXNativeTarget "Pods-TBFontAdjust_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74315627A249D5089151DE9796826B9E /* Debug */,
-				4F1AE10D7F3322AD697C328F950395EA /* Release */,
+				3BA5965CB282C5AC4108DAA7ADEA2253 /* Debug */,
+				3C7A2D615ADD5A78A82592D54A3ABAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -933,8 +1039,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -942,8 +1048,8 @@
 		E5CA2F2BEBF2812584D52428BA51FFE0 /* Build configuration list for PBXNativeTarget "Pods-TBFontAdjust_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5D29D2308B688CA1A23B729F824D65A /* Debug */,
-				F48A5A18CABDF7E66443A2A1F781E375 /* Release */,
+				7DB9440D440E74F2BE4D833A62F73071 /* Debug */,
+				CFBCB8A6BD61A7B429B5BB4BC7E14B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
