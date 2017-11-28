@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-适用于iOS不同屏幕的字体适配
+适用于iOS不同屏幕的字体适配,在不同屏幕上等比方法，经测试在iphone5s ,iphone6,iphone6p 上测试无无问题。
                        DESC
 
   s.homepage         = 'https://github.com/bobtaocool/TBFontAdjust'
