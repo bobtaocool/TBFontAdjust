@@ -19,10 +19,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TBFontAdjust'
 ```
+根据当前的UI图，设置正确的TB_UIScreen即可.
+
+详细使用方法见:[简书](http://www.jianshu.com/p/72c3c55429c3)
+
 
 ## Author
 
-1639008265@qq.com, 1639008265@qq.com
+taobobcool, 1639008265@qq.com
+
+[博客](http://taodongbo.cn)
 
 ## License
 
